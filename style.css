@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 body{
     background-color: rgb(0, 0, 0);
     color: white
@@ -7,8 +8,8 @@ h1 {
     background-color: rgb(128, 117, 104);
     padding: 20px 10px;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 5px 5px 20px rgb(17, 1, 1);
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px rgb(17, 1, 1);
     transition: 1s ease;
     color: white
 }    
@@ -16,7 +17,7 @@ h1:hover {
     font-size: 50px;
 }
 
-h2 {
+p {
     text-align: center;
     background-color:  rgb(128, 117, 104);
     padding: 20px 10px;
@@ -24,9 +25,10 @@ h2 {
     border-radius: 8px;
     box-shadow: 5px 5px 20px rgb(17, 1, 1);
     transition: 1s ease;
-    color: white
+    color: white;
+    font-family: "Pinyon Script";
 }
         
-h2:hover {
+p:hover {
     font-size: 50px;
 }
