@@ -32,3 +32,23 @@ p:hover {
     font-size: 25px;
     transition: 0.3s;
 }
+
+.dropdown {
+  position: relative;
+  display:flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  max-height: 200px;
+}
+
+
+
