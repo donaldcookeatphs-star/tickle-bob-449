@@ -50,5 +50,12 @@ p:hover {
   max-height: 200px;
 }
 
+.main-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
 
-
+.transparent-image {
+  opacity: 0.5;
+}
