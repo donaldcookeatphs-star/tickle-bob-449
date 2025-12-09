@@ -59,3 +59,15 @@ p:hover {
 .transparent-image {
   opacity: 0.5;
 }
+
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.header {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: rgb(128, 117, 104);
+}
