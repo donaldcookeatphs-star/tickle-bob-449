@@ -63,6 +63,7 @@ p {
   padding: 15px 30px;
   background-color: rgb(128, 117, 104);
   border-radius: 30px;
+  text-decoration: none;
 }
 
 .cyber-punk {
@@ -70,8 +71,14 @@ p {
   justify-content: end;
   flex-direction: row;
   position: absolute;
-  top: 19%;
-  right: 20%;
+  right: 1%;
   width: 1000px;
   height: 500px;
+}
+
+.cyber-text{
+ position: absolute;
+ width: 500px;
+ height: 100px;
+ left: 25%;
 }
