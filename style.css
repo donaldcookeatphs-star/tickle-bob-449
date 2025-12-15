@@ -52,8 +52,6 @@ p {
 
 .Aot-image {
   display: flex;
-  justify-content: end;
-  flex-direction: row;
   width: 1000px;
   height: 500px;
 }
@@ -68,17 +66,25 @@ p {
 
 .cyber-punk {
   display: flex;
-  justify-content: end;
-  flex-direction: row;
-  position: absolute;
-  right: 1%;
-  width: 1000px;
+  width: 200px;
   height: 500px;
+  background-color:rgb(128, 117, 104) ;
 }
 
 .cyber-text{
- position: absolute;
- width: 500px;
- height: 100px;
- left: 25%;
+ width: 1500px;
+ height: 10000px;
+ display: flex;
+ flex-direction: column;
+}
+
+.aot-text {
+width: 1500px;
+
+.main-image {
+    position: absolute;
+    right: 25%;
+    width: 1000%;
+    height: 150px;
+    object-fit: cover;
 }
