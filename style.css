@@ -79,12 +79,32 @@ p {
 }
 
 .aot-text {
+position: relative;
+display: flex;
+justify-content: bottom;
 width: 1500px;
+}
 
 .main-image {
-    position: absolute;
-    right: 25%;
-    width: 1000%;
-    height: 150px;
-    object-fit: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.cow-boy{
+  display: flex;
+  justify-content: top;
+  position:absolute;
+  top: 153%;
+  width: 200px;
+  height: 500px;
+  background-color:rgb(128, 117, 104) ;
+}
+
+.cowboy-text{
+  display: flex;
+  justify-content: top;
+  position:absolute;
+  top: 208%;
+  width: 1500px;
 }
